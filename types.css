@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('src/fonts/Quicksand-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('src/fonts/Quicksand-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('src/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('src/fonts/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+
+
+.h1_text {
+  font-size: 24px;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.h2_text {
+  font-size: 19px;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+.h3_text {
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.body_text {
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+.types {
+  list-style-type: none;
+  padding: 0 40px 0 0;
+  margin: 0;
+}
+
+.types__item {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 40px 340px;
+  padding: 0 0 50px 0;
+}
+
+.types__label {
+  text-align: right;
+  color: rgba(31, 32, 65, 0.25);
+  font-weight: normal;
+}
+
+.types__text {
+  color: #1F2041;
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('src/fonts/Quicksand-Regular.ttf');
+  font-weight: 400;
+}
+
+.color-samples {
+  display: grid;
+  list-style-type: none;
+  row-gap: 20px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.color-samples__item {
+  width: 270px;
+  display: grid;
+  grid-template-columns: 70px 160px;
+  column-gap: 40px;
+}
+
+.color-samples__plate {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.color-samples__title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1F2041;
+}
+
+.color-samples__title--hex {
+  font-weight: normal;
+}
+
+.color-samples__plate--bg_dark-shade-100 {
+  background-color: #1F2041;
+}
+
+.color-samples__plate--bg_dark-shade-75 {
+  background-color: rgba(31, 32, 65, 0.75);
+}
+
+.color-samples__plate--bg_dark-shade-50 {
+  background-color: rgba(31, 32, 65, 0.5);
+}
+
+.color-samples__plate--bg_dark-shade-25 {
+  background-color: rgba(31, 32, 65, 0.25);
+} 
+
+.color-samples__plate--bg_dark-shade-5 {
+  background-color: rgba(31, 32, 65, 0.05);
+}
+
+.bg_purple {
+  background-color: #BC9CFF;
+}
+
+.bg_green {
+  background-color: #6FCF97;
+}
